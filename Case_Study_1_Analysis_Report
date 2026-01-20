@@ -1,0 +1,21 @@
+Case Study 1: Layered Bitcoin Transaction Chain Analysis
+
+#Overview
+This case examines a sequence of Bitcoin transactions exhibiting a layered transfer pattern in which funds are repeatedly moved between unique wallet addresses over multiple hops. This pattern is commonly associated with attempts to increase transactional complexity and reduce traceability.
+
+#Transaction Summary
+-Observed Activity: Approximately $50,000 USD equivalent in Bitcoin
+-Transaction Structure: Sequential wallet to wallet transfers
+-Number of Observed Hops: 7 
+-Value Behavior: Transaction values remained relatively consistent across hops, with minor reductions attributable to transaction fees
+
+#Observed On-Chain Behavior
+The analyzed funds originated from a single wallet and were transferred through a chain of newly observed wallet addresses. Each transaction occurred shortly after the prior confirmation, suggesting automated or preplanned execution.
+The repeated movement of funds without interaction with exchanges, services, or consolidation wallets indicates intentional layering rather than routine user activity. No reuse of wallet addresses was observed within the documented hops.
+
+#Risk and Analytical Significance
+Layered transaction chains increase investigative workload by requiring analysts to trace extended hop sequences while yielding diminishing attribution value. This behavior is consistent with techniques used to obscure transaction origin and disrupt straightforward financial tracing.
+Such patterns may complicate compliance monitoring, delay investigative timelines, and increase the likelihood of funds blending into broader blockchain activity.
+
+#Scope and Limitations
+The analysis was done on seven hops, but the table shows the first four in detail. Tracing was intentionally limited to avoid speculative attribution and to reflect realistic investigative constraints commonly faced in operational environments.
