@@ -1,0 +1,21 @@
+Case Study 2: High Value Fan Out Bitcoin Transaction Analysis
+
+#Overview
+This case analyzes a high value Bitcoin transaction characterized by a fan out distribution pattern, where a single transaction distributes funds across a large number of recipient wallets simultaneously.
+
+#Transaction Summary
+-Observed Activity: Approximately $44 million USD equivalent in Bitcoin
+-Transaction Structure: One input distributed across 36 output wallets
+-Execution Style: Single transaction event
+-Value Distribution: Funds divided unevenly across multiple new wallet addresses
+
+#Observed On-Chain Behavior
+The transaction originated from a single source wallet and immediately dispersed funds into 36 distinct output addresses. No consolidation or intermediate wallets were observed prior to distribution. 
+The scale and structure of the transaction significantly increase complexity for monitoring systems and investigators by expanding the number of wallets requiring potential follow on analysis.
+
+#Risk and Analytical Significance
+Fan out transactions are often used to rapidly disperse funds, reducing single point traceability and increasing the analytical surface area. High value distributions of this nature may present systemic risk by overwhelming manual investigative processes and complicating prioritization decisions.
+This pattern demonstrates how transaction volume, rather than hop depth, can be leveraged to impede financial tracking efforts.
+
+#Scope and Limitations
+This analysis focuses on the originating transaction and a subset of representative output wallets. Downstream activity from recipient wallets was not traced in order to maintain analytical focus and avoid speculative conclusions regarding fund usage or attribution.
