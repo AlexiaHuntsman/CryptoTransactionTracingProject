@@ -23,11 +23,5 @@ Analysis is limited to publicly available data and does not attempt attribution 
 ## Current Status
 This investigation is actively in progress. Initial transaction chains have been identified and documented, and further analysis is ongoing. Findings, diagrams, and reports will continue to be updated as the investigation progresses.
 
-## Repository Contents
-- screenshots – Evidence screenshots of blockchain transactions
-- transaction_table – Structured transaction tracking data
-- diagrams – Transaction flow visualizations
-- report – Formal forensic style report
-
 ## Disclaimer
 This project is for educational and research purposes only. All analyzed data is publicly available on the Bitcoin blockchain. No attempt is made to identify or accuse any real world individuals or organizations.
