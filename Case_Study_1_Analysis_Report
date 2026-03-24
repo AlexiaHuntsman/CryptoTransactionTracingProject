@@ -18,4 +18,4 @@ Layered transaction chains increase investigative workload by requiring analysts
 Such patterns may complicate compliance monitoring, delay investigative timelines, and increase the likelihood of funds blending into broader blockchain activity.
 
 #Scope and Limitations
-The analysis was done on seven hops, but the table shows the first four in detail. Tracing was intentionally limited to avoid speculative attribution and to reflect realistic investigative constraints commonly faced in operational environments.
+The analysis was done on seven hops. Tracing was intentionally limited to avoid speculative attribution and to reflect realistic investigative constraints commonly faced in operational environments.
