@@ -1,4 +1,4 @@
-# Bitcoin Transaction Tracing – Digital Financial Forensics (In Progress)
+# Bitcoin Transaction Tracing – Digital Financial Forensics
 
 ## Overview
 This project documents an ongoing digital financial forensics investigation in which public blockchain data is used to trace Bitcoin transactions associated with simulated ransomware activity. The goal of the project is to demonstrate how open source intelligence, transaction analysis, and risk based thinking used to identify laundering behavior and assess cyber and financial risk.
@@ -16,12 +16,10 @@ The investigation focuses on tracking the movement of funds across multiple inte
 ## Methodology
 This investigation uses publicly available blockchain data as an open source intelligence source. Each transaction is analyzed by reviewing transaction IDs, input and output wallet addresses, transaction amounts and fees, and timing of fund movement.
 
-Transactions are recorded in a structured tracking table and visualized through a transaction flow diagram to illustrate how funds move through intermediary wallets.
-
 Analysis is limited to publicly available data and does not attempt attribution to individuals or organizations.
 
 ## Current Status
-This investigation is actively in progress. Initial transaction chains have been identified and documented, and further analysis is ongoing. Findings, diagrams, and reports will continue to be updated as the investigation progresses.
+This investigation is complete. Initial transaction chains have been identified and documented. Reports have been written to relfect findings from investigation.
 
 ## Disclaimer
 This project is for educational and research purposes only. All analyzed data is publicly available on the Bitcoin blockchain. No attempt is made to identify or accuse any real world individuals or organizations.
